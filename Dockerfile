@@ -1,11 +1,7 @@
-#
-# NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
-#
-# PLEASE DO NOT EDIT IT DIRECTLY.
-#
+
 FROM debian:bullseye-slim
 
-LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
+LABEL maintainer="murali"
 
 ENV NGINX_VERSION   1.19
 ENV NJS_VERSION     0.7.6
