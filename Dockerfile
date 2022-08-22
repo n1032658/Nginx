@@ -1,2 +1,2 @@
-FROM nginx:1.19
+FROM nginx:1.22
 MAINTAINER murali
