@@ -1,6 +1,6 @@
 
 # Pull the minimal Ubuntu image
-FROM ubuntu
+FROM ubuntu:22.04
 
 # Install Nginx
 RUN apt-get -y update && apt-get -y install nginx=1.9.*
