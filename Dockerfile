@@ -1,6 +1,6 @@
 
 # Pull the minimal Ubuntu image
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 
 # Install Nginx
 RUN apt-get -y update && apt-get -y install nginx=1.9.*
